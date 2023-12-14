@@ -1,0 +1,171 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "TransactionItem&StateMachine_1",
+        "SystemException&StateMachine_1",
+        "BusinessException&StateMachine_1",
+        "TransactionNumber&StateMachine_1",
+        "Config&StateMachine_1",
+        "RetryNumber&StateMachine_1",
+        "TransactionField2&StateMachine_1",
+        "TransactionField1&StateMachine_1",
+        "TransactionID&StateMachine_1",
+        "dt_TransactionData&StateMachine_1",
+        "ConsecutiveSystemExceptions&StateMachine_1",
+        "strSeqName&State_2",
+        "tSeqStartTime&State_2",
+        "ShouldStop&Sequence_25",
+        "strSeqName&Sequence_25",
+        "tSeqStartTime&Sequence_25",
+        "strSeqName&Sequence_33",
+        "tSeqStartTime&Sequence_33",
+        "strSeqName&Sequence_34",
+        "tSeqStartTime&Sequence_34"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_OrchestratorQueueName",
+        "in_OrchestratorQueueFolder"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_2",
+        "tSeqStartTime&Sequence_2",
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11",
+        "obj_mails&Sequence_13",
+        "dt_Assets&Sequence_15",
+        "AssetValue&Sequence_16"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "testt.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "boolAttachmentExist&Sequence_8",
+        "MailsList&Sequence_5"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/mail/GetCustomerMail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_4",
+        "tSeqStartTime&Sequence_4",
+        "str_FilterMail&Sequence_3"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_str_FilterSubject",
+        "in_str_FilterDomain",
+        "out_list_MailMessage",
+        "in_int_NumberOfTopSelected",
+        "in_str_MyAccount"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/InitAllApplications.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_9",
+        "tSeqStartTime&Sequence_9",
+        "in_str_AttachmentName&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/Process.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "MailsList&Sequence_2",
+        "strSeqName&Sequence_1",
+        "tSeqStartTime&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionItem",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/mail/SaveAttachment.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "AttachmentsFolderExist&Sequence_7",
+        "str_FileData&Sequence_5",
+        "str_AttachmentPath&Sequence_5",
+        "strSeqName&Sequence_7",
+        "tSeqStartTime&Sequence_7"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_MailsList",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Framework/GetTransactionData.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": [
+        "in_TransactionNumber",
+        "in_Config",
+        "out_TransactionItem",
+        "out_TransactionField1",
+        "out_TransactionField2",
+        "out_TransactionID",
+        "io_dt_TransactionData"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "modules/AddDataToQueue.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strSeqName&Sequence_10",
+        "tSeqStartTime&Sequence_10",
+        "dataDT&Sequence_9",
+        "str_Mail&Sequence_9"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
